@@ -15,16 +15,17 @@ make && ./main.exe
 ```
 
 Define your functions and costants $\newline$
+
+
 Note that the "**NAN**" is used as **domain defintion**, in this case the function "costant" is only defined for $x <20 \lor x > 30$
 
 ```c
 #define M_PI 3.14159265358979323846
 
 double f(double x) { return x \* x; }
-double constant(double x)
-{
-if (20 < x && x < 30) return NAN;
-return 1;
+double constant(double x){
+    if (20 < x && x < 30) return NAN;
+    return 1;
 }
 ```
 
