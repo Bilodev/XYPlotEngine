@@ -14,7 +14,7 @@ make && ./main.exe
 #include "Engine/Engine.h"
 ```
 
-Define your functions and costants
+Define your functions and costants $\newline$
 Note that the "**NAN**" is used as **domain defintion**, in this case the function "costant" is only defined for $x <20 \lor x > 30$
 
 ```c
